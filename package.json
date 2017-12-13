@@ -1,0 +1,25 @@
+{
+  "name": "glsl-loader",
+  "version": "1.0.0",
+  "description": "Better to create sshader with webpack",
+  "homepage": "",
+  "author": "ChowBu",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChowBu/glsl-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChowBu/glsl-loader/issues"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
+}
