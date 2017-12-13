@@ -10,9 +10,9 @@ load glsl to create shaders
 ### Usage
 
 #### Install
-First, install glsl-loader through npm
+First, install glsl-shaders-loader through npm
 ```
-npm install glsl-loader --save-dev
+npm install glsl-shaders-loader --save-dev
 ```
 #### Setting
 Configure webpack to rewrite the normal glsl-loader configuration, such as:
@@ -21,7 +21,7 @@ module: {
     loaders: [
         {
             test: /\.glsl$/,
-            loader: 'glsl-loader'
+            loader: 'glsl-shaders-loader'
         }
     ]
 }
